@@ -1,0 +1,89 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="refresh" content="60;url='http://mtw.so/5FRdFE'">
+
+<title>2020年中国在线视频行业研究报告</title>
+<script type="text/javascript" src="js/jquery.js"></script>
+<link rel="stylesheet" href="css/comon0.css">
+</head>
+<body>
+<div class="loading">
+  <div class="loadbox"> <img src="images/loading.gif"> 页面加载中... </div>
+</div>
+<div class="head">
+  <h1><a href="https://gitee.com/iGaoWei/big-data-view">2020年中国在线视频行业研究报告</a></h1>
+  <div class="time" id="showTime">2019/12/05 16:16:54</div>
+		<script>
+var t = null;
+    t = setTimeout(time,1000);//開始运行
+    function time()
+    {
+       clearTimeout(t);//清除定时器
+       dt = new Date();
+		var y=dt.getFullYear();
+		var mt=dt.getMonth()+1;
+		var day=dt.getDate();
+       var h=dt.getHours();//获取时
+       var m=dt.getMinutes();//获取分
+       var s=dt.getSeconds();//获取秒
+		var t = null;
+       document.getElementById("showTime").innerHTML = y+"/"+Appendzero(mt)+"/"+Appendzero(day)+" "+Appendzero(h)+":"+Appendzero(m)+":"+Appendzero(s)+"";
+        function Appendzero(obj){
+			if(obj<10) return "0" +""+ obj;
+			else return obj;
+		 }
+		t = setTimeout(time,1000); //设定定时器，循环运行     
+    } 
+
+</script>
+	
+</div>
+<div class="mainbox">
+  <ul class="clearfix">
+    <li>
+  
+	  <div class="boxall" style="height: calc(58% - .15rem)">
+		<div class="alltitle">2020总营收与营收构成(亿元)</div>
+		 <div class=" boxnav " id="echarts4">
+        </div>
+      </div>
+      <div class="boxall" style="height: calc(42% - .15rem)">
+          <div class="alltitle">2020各大玩家市值(亿元)</div>
+          <div class="boxnav" id="echarts3"></div>
+        </div>
+    </li>
+    <li>
+        <div class="boxall" style="height: calc(58% - .15rem)">
+            <div class="alltitle">2020付费会员渗透率</div>
+            <div class="boxnav" id="echarts7"></div>
+          </div>
+            <div class="boxall" style="height: calc(42% - .15rem)">
+              <div class="alltitle">2019-2021影视内容净资产占比变化</div>
+                <div class="boxnav" id="echarts2"></div>
+              </div>
+
+    </li>
+    <li>
+      
+		<div class="boxall" style="height: calc(58% - .15rem)">
+
+			<div class="alltitle">中国在线视频行业营收构成</div>
+			<div class="boxnav" id="echarts5"></div>
+        
+      </div>
+      <div class="boxall" style="height: calc(42% - .15rem)">
+        <div class="alltitle">2020热点综艺和电视剧</div>
+        <div class="boxnav" id="echarts6" style="height:
+        calc(100% - .3rem);"></div>
+        
+	  </div>
+    </li>
+  </ul>
+</div>
+	
+<script type="text/javascript" src="js/echarts.min.js"></script> 
+<script language="JavaScript" src="js/js.js"></script> 
+</body>
+</html>
